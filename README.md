@@ -1,31 +1,30 @@
-## Hotel Booking Cancellation Prediction
-**Project Overview**
-This project focuses on predicting hotel booking cancellations using a dataset of hotel booking demand.
-The goal is to develop and evaluate various machine learning models to accurately forecast cancellations, 
-which can help hotels optimize their operations and revenue management.
+# Hotel Booking Cancellation Prediction
 
-**Data**
-The dataset used in this project is sourced from Kaggle and contains detailed information about hotel bookings,
-including customer demographics, booking specifics, and historical cancellation patterns.
+## Project Overview
+This project focuses on predicting hotel booking cancellations using a dataset of hotel booking demand. The goal is to develop and evaluate various machine learning models to accurately forecast cancellations, which can help hotels optimize their operations and revenue management.
 
-**Installation**
+## Data
+The dataset used in this project is sourced from Kaggle and contains detailed information about hotel bookings, including customer demographics, booking specifics, and historical cancellation patterns.
+
+## Installation
 To run this notebook, you'll need the following libraries. You can install them using pip:
 
+```bash
 pip install pandas numpy tensorflow scikit-learn matplotlib seaborn kagglehub joblib
-Usage
-Clone the repository or download the notebook.
-Run all cells in the notebook. The notebook covers:
-Data Loading and Initial Exploration
-Data Preprocessing (Handling missing values, encoding categorical features, feature scaling)
-Data Splitting (Training, Validation, and Test sets)
-Model Training and Evaluation (Logistic Regression, Decision Tree, Random Forest, Neural Networks)
-Visualization of Results (ROC Curves, Confusion Matrices, Learning Curves)
-Saving the Best Model
-**Model Evaluation**
-Several models were trained and evaluated on metrics such as Accuracy, Precision, Recall, and F1-Score. 
-The results DataFrame in the notebook provides a comparative overview of each model's performance.
+```
 
-Model	Accuracy	Precision	Recall	F1-Score	Hyperparameters	Observations
+## Usage
+1.  **Clone the repository or download the notebook.**
+2.  **Run all cells in the notebook.** The notebook covers:
+    *   Data Loading and Initial Exploration
+    *   Data Preprocessing (Handling missing values, encoding categorical features, feature scaling)
+    *   Data Splitting (Training, Validation, and Test sets)
+    *   Model Training and Evaluation (Logistic Regression, Decision Tree, Random Forest, Neural Networks)
+    *   Visualization of Results (ROC Curves, Confusion Matrices, Learning Curves)
+    *   Saving the Best Model
+
+## Model Evaluation
+Several models were trained and evaluated on metrics such as Accuracy, Precision, Recall, and F1-Score. The `results` DataFrame in the notebook provides a comparative overview of each model's performance.
 
 | Model                          | Accuracy | Precision | Recall   | F1-Score | Hyperparameters                                                                     | Observations                                                                                                                              |
 |:-------------------------------|:---------|:----------|:---------|:---------|:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
